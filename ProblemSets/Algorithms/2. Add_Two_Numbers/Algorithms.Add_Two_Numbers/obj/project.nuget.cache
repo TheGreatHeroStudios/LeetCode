@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m4zJ9Llq+vuN7O/HpdwH88PsTxMCZOzObtBBmH2/pkTrr/5SODk29UNTrVMpRjwBvpPQ9chAhhe/oKu4XwO/4A==",
+  "success": true,
+  "projectFilePath": "E:\\Programming Projects\\Git Repositories\\LeetCode\\ProblemSets\\Algorithms\\2. Add_Two_Numbers\\Algorithms.Add_Two_Numbers\\Algorithms.Add_Two_Numbers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
