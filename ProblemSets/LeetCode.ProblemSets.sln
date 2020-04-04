@@ -3,9 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{1292963F-FE0F-4951-AB87-244F4B70E843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Two_Sum", "1. Two_Sum", "{7BE1CCE1-4FCA-49DA-9234-5F8CEF35C47E}"
+	ProjectSection(SolutionItems) = preProject
+		Algorithms\1. Two_Sum\Problem.txt = Algorithms\1. Two_Sum\Problem.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Two_Sum", "Algorithms\1. Two_Sum\Algorithms.Two_Sum\Algorithms.Two_Sum.csproj", "{BABA69E6-E115-4C3A-B74D-804CB8860C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Two_Sum.Tests", "Algorithms\1. Two_Sum\Algorithms.Two_Sum.Tests\Algorithms.Two_Sum.Tests.csproj", "{07CB0E46-2A2C-4852-AD26-2F1990C49659}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABA69E6-E115-4C3A-B74D-804CB8860C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABA69E6-E115-4C3A-B74D-804CB8860C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABA69E6-E115-4C3A-B74D-804CB8860C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABA69E6-E115-4C3A-B74D-804CB8860C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CB0E46-2A2C-4852-AD26-2F1990C49659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CB0E46-2A2C-4852-AD26-2F1990C49659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CB0E46-2A2C-4852-AD26-2F1990C49659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CB0E46-2A2C-4852-AD26-2F1990C49659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BE1CCE1-4FCA-49DA-9234-5F8CEF35C47E} = {1292963F-FE0F-4951-AB87-244F4B70E843}
+		{BABA69E6-E115-4C3A-B74D-804CB8860C9B} = {7BE1CCE1-4FCA-49DA-9234-5F8CEF35C47E}
+		{07CB0E46-2A2C-4852-AD26-2F1990C49659} = {7BE1CCE1-4FCA-49DA-9234-5F8CEF35C47E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2F0F978-9997-4A89-8255-A9E56941C623}

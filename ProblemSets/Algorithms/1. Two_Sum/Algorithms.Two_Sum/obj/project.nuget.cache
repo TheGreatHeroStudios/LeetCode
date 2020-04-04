@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mUT3LHGbIGFNXKHkIMvYQ8j6gBY0PZvgcbiqp25MmorJ6IdpCp3fNCudbliFGbXxDuYkkXP/1nR44tgEIGO39w==",
+  "success": true,
+  "projectFilePath": "E:\\Programming Projects\\Git Repositories\\LeetCode\\ProblemSets\\Algorithms\\1. Two_Sum\\Algorithms.Two_Sum\\Algorithms.Two_Sum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
